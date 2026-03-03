@@ -1,6 +1,8 @@
 name: Feature Request
 description: Suggest a new feature
 labels: ["enhancement"]
+type: "Feature"
+projects: ["TeamOvault/1"]
 body:
   - type: textarea
     id: description
@@ -16,10 +18,3 @@ body:
       description: What problem does this solve?
     validations:
       required: true
-  - type: textarea
-    id: context
-    attributes:
-      label: Additional context
-      description: Mockups, examples, references, etc.
-    validations:
-      required: false
